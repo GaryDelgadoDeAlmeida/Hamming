@@ -1,0 +1,39 @@
+/*----------------------------------------------------------
+				Formulaire comparaison DNA
+----------------------------------------------------------*/
+.hammingForm {
+	margin-top: 12.5%;
+	margin-left: 32.5%;
+	width: 30%;
+}
+
+.resutlForm {
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 40%;
+}
+
+.title {
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.width-120 {
+	width: 120px;
+}
+
+.center {
+	text-align: center;
+}
+
+@media(max-width: 749px) {
+	.hammingForm {
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+
+	.width-120 {
+		display: inline-block;
+	}
+}
